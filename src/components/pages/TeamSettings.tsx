@@ -66,7 +66,7 @@ export default function TeamSettings() {
             <img src="/icons/user.svg" alt="User" className="w-5 h-5" />
             <div className="flex flex-col">
               <span>やまもとはなこ</span>
-              <span className="text-xs text-[#8C8B87]">hana@mitsubishielectric.co.jp</span>
+              <span className="text-xs text-[#8C8B87]">hana@mailmail.co.jp</span>
             </div>
           </div>
         </div>
@@ -167,7 +167,7 @@ export default function TeamSettings() {
                     <TableCell className="py-3">
                       <div className="flex flex-col">
                         <span className="text-sm">{index % 2 === 0 ? 'やまもとたろう' : 'やまもとはなこ'}</span>
-                        <span className="text-xs text-[#8C8B87]">taro@dic.co.jp</span>
+                        <span className="text-xs text-[#8C8B87]">taro@mailmail.co.jp</span>
                       </div>
                     </TableCell>
                     <TableCell className="py-3 px-8">
