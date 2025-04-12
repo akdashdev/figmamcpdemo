@@ -1,0 +1,117 @@
+#root {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* アプリ全体のスタイル */
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* テーブルのスタイル調整 */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px 16px;
+}
+
+th {
+  text-align: left;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+tr {
+  border-bottom: 1px solid #D9D8D3;
+}
+
+tbody tr:hover {
+  background-color: rgba(239, 242, 252, 0.3);
+}
+
+/* セパレータースタイル */
+.separator {
+  background-color: #D9D8D3;
+}
+
+/* ボタンのスタイル調整 */
+.rounded-md {
+  border-radius: 8px;
+}
+
+/* サイドメニューのスタイル */
+.sidemenu-active {
+  background-color: #BFCEFC;
+}
+
+.user-info {
+  border-color: #D9D8D3;
+  border-radius: 8px;
+}
+
+/* その他のスタイル調整 */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* バッジのスタイル調整 */
+.badge {
+  font-size: 11px;
+  padding: 2px 8px;
+  height: 24px;
+  border-radius: 9999px;
+}
+
+/* シャドウ効果 */
+.shadow-menu {
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+}
