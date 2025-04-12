@@ -27,7 +27,7 @@ export default function TeamSettings() {
       <div className="w-64 bg-[#EFF2FC] flex flex-col h-full border-r border-[#D9D8D3]">
         <div className="flex items-center px-5 py-6">
           <div className="flex items-center gap-1">
-            <img src="/icons/logo.svg" alt="Logo" className="h-8 w-8" />
+            <img src="/figmamcpdemo/icons/logo.svg" alt="Logo" className="h-8 w-8" />
             <span className="font-bold text-lg">LOGO</span>
           </div>
         </div>
@@ -35,23 +35,23 @@ export default function TeamSettings() {
         <nav className="flex-1 px-4 space-y-6">
           <div className="space-y-1">
             <a href="#" className="flex items-center gap-3 px-4 py-2 text-sm rounded-md hover:bg-[#BFCEFC]">
-              <img src="/icons/home.svg" alt="Home" className="w-5 h-5" />
+              <img src="/figmamcpdemo/icons/home.svg" alt="Home" className="w-5 h-5" />
               <span>ホーム</span>
             </a>
             <a href="#" className="flex items-center gap-3 px-4 py-2 text-sm rounded-md hover:bg-[#BFCEFC]">
-              <img src="/icons/payment.svg" alt="Payment" className="w-5 h-5" />
+              <img src="/figmamcpdemo/icons/payment.svg" alt="Payment" className="w-5 h-5" />
               <span>決済管理</span>
             </a>
             <a href="#" className="flex items-center gap-3 px-4 py-2 text-sm rounded-md bg-[#BFCEFC]">
-              <img src="/icons/team-settings.svg" alt="Team" className="w-5 h-5" />
+              <img src="/figmamcpdemo/icons/team-settings.svg" alt="Team" className="w-5 h-5" />
               <span>チーム設定</span>
             </a>
             <a href="#" className="flex items-center gap-3 px-4 py-2 text-sm rounded-md hover:bg-[#BFCEFC]">
-              <img src="/icons/account.svg" alt="Account" className="w-5 h-5" />
+              <img src="/figmamcpdemo/icons/account.svg" alt="Account" className="w-5 h-5" />
               <span>アカウント管理</span>
             </a>
             <a href="#" className="flex items-center gap-3 px-4 py-2 text-sm rounded-md hover:bg-[#BFCEFC]">
-              <img src="/icons/inventory.svg" alt="Inventory" className="w-5 h-5" />
+              <img src="/figmamcpdemo/icons/inventory.svg" alt="Inventory" className="w-5 h-5" />
               <span>備品管理</span>
             </a>
           </div>
@@ -59,11 +59,11 @@ export default function TeamSettings() {
         
         <div className="px-4 py-4 mt-auto">
           <a href="#" className="flex items-center gap-3 px-4 py-2 text-sm rounded-md hover:bg-[#BFCEFC]">
-            <img src="/icons/settings.svg" alt="Settings" className="w-5 h-5" />
+            <img src="/figmamcpdemo/icons/settings.svg" alt="Settings" className="w-5 h-5" />
             <span>設定</span>
           </a>
           <div className="flex items-center gap-3 px-4 py-2 text-sm border border-[#D9D8D3] rounded-md mt-2">
-            <img src="/icons/user.svg" alt="User" className="w-5 h-5" />
+            <img src="/figmamcpdemo/icons/user.svg" alt="User" className="w-5 h-5" />
             <div className="flex flex-col">
               <span>やまもとはなこ</span>
               <span className="text-xs text-[#8C8B87]">hana@mailmail.co.jp</span>
@@ -83,7 +83,7 @@ export default function TeamSettings() {
             <h1 className="font-bold text-xl">チーム設定</h1>
             <div className="flex items-center gap-2">
               <Button variant="outline" size="icon" className="rounded-md border-[#C8C7C2]">
-                <img src="/icons/team-icon.svg" alt="Team" className="w-5 h-5" />
+                <img src="/figmamcpdemo/icons/team-icon.svg" alt="Team" className="w-5 h-5" />
               </Button>
             </div>
           </div>
@@ -94,13 +94,13 @@ export default function TeamSettings() {
           <div className="flex justify-between items-center">
             <div className="flex items-center gap-2">
               <Button variant="outline" size="icon" className="rounded-md border-[#C8C7C2]">
-                <img src="/icons/action-edit.svg" alt="Edit" className="w-5 h-5" />
+                <img src="/figmamcpdemo/icons/action-edit.svg" alt="Edit" className="w-5 h-5" />
               </Button>
               <Button variant="outline" size="icon" className="rounded-md border-[#C8C7C2]">
-                <img src="/icons/action-list.svg" alt="List" className="w-5 h-5" />
+                <img src="/figmamcpdemo/icons/action-list.svg" alt="List" className="w-5 h-5" />
               </Button>
               <Button variant="outline" size="icon" className="rounded-md border-[#C8C7C2]">
-                <img src="/icons/action-filter.svg" alt="Filter" className="w-5 h-5" />
+                <img src="/figmamcpdemo/icons/action-filter.svg" alt="Filter" className="w-5 h-5" />
               </Button>
               <div className="relative">
                 <Input 
@@ -108,14 +108,14 @@ export default function TeamSettings() {
                   className="w-60 pl-9 border border-[#C8C7C2] rounded-md h-9 text-sm"
                 />
                 <img 
-                  src="/icons/search.svg" 
+                  src="/figmamcpdemo/icons/search.svg" 
                   alt="Search" 
                   className="absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4"
                 />
               </div>
             </div>
             <Button variant="outline" className="rounded-md flex items-center gap-2 h-8 px-3 py-0 border-[#C8C7C2]">
-              <img src="/icons/add.svg" alt="Add" className="w-4 h-4" />
+              <img src="/figmamcpdemo/icons/add.svg" alt="Add" className="w-4 h-4" />
               <span className="text-xs">チームを追加</span>
             </Button>
           </div>
@@ -133,16 +133,16 @@ export default function TeamSettings() {
                   </TableHead>
                   <TableHead className="w-[100px] text-right font-normal">
                     参加人数
-                    <img src="/icons/sort.svg" alt="Sort" className="inline ml-1 w-4 h-4 cursor-pointer" />
+                    <img src="/figmamcpdemo/icons/sort.svg" alt="Sort" className="inline ml-1 w-4 h-4 cursor-pointer" />
                   </TableHead>
                   <TableHead className="w-[200px] font-normal">オーナー</TableHead>
                   <TableHead className="w-[120px] text-right font-normal">
                     アクセス
-                    <img src="/icons/sort-alt.svg" alt="Sort" className="inline ml-1 w-4 h-4 cursor-pointer" />
+                    <img src="/figmamcpdemo/icons/sort-alt.svg" alt="Sort" className="inline ml-1 w-4 h-4 cursor-pointer" />
                   </TableHead>
                   <TableHead className="w-[120px] text-right font-normal">
                     最終アクセス
-                    <img src="/icons/sort-time.svg" alt="Sort" className="inline ml-1 w-4 h-4 cursor-pointer" />
+                    <img src="/figmamcpdemo/icons/sort-time.svg" alt="Sort" className="inline ml-1 w-4 h-4 cursor-pointer" />
                   </TableHead>
                   <TableHead className="w-10"></TableHead>
                 </TableRow>
@@ -188,7 +188,7 @@ export default function TeamSettings() {
                         className="rounded-md h-8 w-8" 
                         onClick={() => toggleMenu(index)}
                       >
-                        <img src="/icons/more-gray.svg" alt="More" className="w-5 h-5" />
+                        <img src="/figmamcpdemo/icons/more-gray.svg" alt="More" className="w-5 h-5" />
                       </Button>
                       
                       {/* ドロップダウンメニュー */}
@@ -196,11 +196,11 @@ export default function TeamSettings() {
                         <div className="absolute right-0 mt-1 bg-white rounded-md shadow-menu border border-[#D9D8D3] p-2 w-[120px] z-10">
                           <div className="flex flex-col">
                             <a href="#" className="flex items-center gap-3 px-4 py-2 text-sm hover:bg-[#EFF2FC] rounded-md">
-                              <img src="/icons/edit.svg" alt="Edit" className="w-5 h-5" />
+                              <img src="/figmamcpdemo/icons/edit.svg" alt="Edit" className="w-5 h-5" />
                               <span>編集</span>
                             </a>
                             <a href="#" className="flex items-center gap-3 px-4 py-2 text-sm hover:bg-[#EFF2FC] rounded-md text-[#CE0037]">
-                              <img src="/icons/delete.svg" alt="Delete" className="w-5 h-5" />
+                              <img src="/figmamcpdemo/icons/delete.svg" alt="Delete" className="w-5 h-5" />
                               <span>削除</span>
                             </a>
                           </div>
